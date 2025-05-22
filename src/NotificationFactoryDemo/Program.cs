@@ -9,9 +9,11 @@ services.AddTransient<EmailNotification>();
 services.AddTransient<SmsNotification>();
 
 // Register factory
+
 services.AddSingleton<INotificationFactory, NotificationFactory>();
 
 // Build service provider
+
 var serviceProvider = services.BuildServiceProvider();
 
 // Resolve the factory
