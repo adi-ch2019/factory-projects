@@ -1,5 +1,3 @@
-using AbstractFactoryDemo.Components;
-
 namespace AbstractFactoryDemo.Factories;
 
 public class EmailNotificationFactory : INotificationFactory

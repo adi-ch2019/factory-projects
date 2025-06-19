@@ -1,6 +1,4 @@
-﻿using AbstractFactoryDemo.Factories;
-
-// Choose a factory (could be driven by config or input)
+﻿// Choose a factory (could be driven by config or input)
 INotificationFactory factory = new EmailNotificationFactory();
 // INotificationFactory factory = new SmsNotificationFactory();
 

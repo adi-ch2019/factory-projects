@@ -1,5 +1,3 @@
-using AbstractFactoryDemo.Components;
-
 namespace AbstractFactoryDemo.Factories;
 
 public interface INotificationFactory
